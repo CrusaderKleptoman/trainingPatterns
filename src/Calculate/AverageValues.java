@@ -22,7 +22,7 @@ public class AverageValues {
     public float calculateMod()
     {
         //Реализовать подсчет моды
-        System.out.println("Была расчитана меда");
+        System.out.println("Была расчитана мода");
         return 0;
     }
 }
