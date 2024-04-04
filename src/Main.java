@@ -26,7 +26,6 @@ class Menu
             System.out.println("0 - Закрыть программу");
             System.out.println("--------------------------------------------------");
 
-
             if(scanner.hasNextByte()) command = scanner.nextByte();
             else {System.out.println("Ошибка ввода, повторите команду"); scanner.next();continue;}
 
@@ -37,7 +36,6 @@ class Menu
                 case 4: dataAnalysis.calculateDispersionRatesAll();break;
                 case 0: System.out.println("Завершение работы");return;
                 }
-
 
         }
     }
